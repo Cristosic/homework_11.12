@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.gallery__image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+    transition: 0.2s;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+input {
+    width: 70px;
+}
+
+.btn {
+    background-color: rgb(227, 203, 124);
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(16, 14, 14);
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 14px;
+    margin: 15px;
+}

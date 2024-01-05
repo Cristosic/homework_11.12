@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <article class="gallery">
+            <img src="https://www.thelabradorsite.com/wp-content/uploads/2016/05/6t.jpg" alt="puppy" onclick="zoom()" class="gallery__image">
+        </article>
+    </div>
+
+
+<form>
+
+    <div class="container-1">
+    <label>Frontend </label>
+    <select class="courseFrontend">
+        <option value="1000">HTML - 1000$</option>
+        <option value="1500">CSS - 1500$</option>
+        <option value="2000">JavaScript - 2000$</option>
+    </select>
+
+    <input class="input input-1" type="number" min="1" placeholder="Quantity">
+    </div>
+
+
+
+    <div class="container-2">
+    <label>Backend </label>
+    <select class="courseBackend">
+        <option value="2000">Java - 2000$</option>
+        <option value="2000">Phyton - 2000$</option>
+        <option value="1000">Django - 1000$</option>
+    </select>
+    <input class="input input-2" type="number" min="1" placeholder="Quantity">
+    </div>
+
+
+
+    <div class="container-3">
+    <label>Web Design </label>
+    <select class="courseWebDesign">
+        <option value="800">UI/UX - 800$</option>
+        <option value="500">Figma - 500$</option>
+        <option value="500">Photoshop - 500$</option>
+    </select>
+
+    <input class="input input-3" type="number" min="1" placeholder="Quantity">
+    </div>
+
+
+    <button class="btn" onclick="sum()">Buy</button>
+    <h5 class="totalPrice"></h5>
+
+
+</form  >
+    
+
+
+    <script src="js/index.js"></script>
+
+</body>
+</html> 
+
+
